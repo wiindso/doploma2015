@@ -11,7 +11,7 @@ int main() {
     cin >> m;
     cout << "Введіть значення s: ";
     cin >> s;
-    int resultC = (int)m * n - s;
+    int resultC = (int)m - n * s;
     cout << "Результат з використанням приведення типу в стилі мови С: " << resultC << endl;
     return 0;
 }
